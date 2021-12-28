@@ -9,7 +9,7 @@ function invertir(str) {
 invertir("Holis");
 
 //Sol 2
-function reverseString(str) {
+function invertir(str) {
     console.log(str.split("").reverse().join(""));   
 }
-reverseString("holibiris")
+invertir("holibiris")
