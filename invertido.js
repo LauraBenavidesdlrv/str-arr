@@ -8,6 +8,7 @@ function invertir(str) {
 }
 invertir("Holis");
 
+//Sol 2
 function reverseString(str) {
     console.log(str.split("").reverse().join(""));   
 }
