@@ -7,3 +7,8 @@ function invertir(str) {
     console.log (strInv);
 }
 invertir("Holis");
+
+function reverseString(str) {
+    console.log(str.split("").reverse().join(""));   
+}
+reverseString("holibiris")
