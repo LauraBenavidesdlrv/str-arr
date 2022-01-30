@@ -4,9 +4,11 @@ function coincidir(arr){
     for (let i = 0; i < elemento.length; i++) {
       if (base.indexOf(elemento[i]) < 0){
           console.log(false);
+      }else{
+          console.log(true);
       }
     }
-    console.log(true);
+    
 }
 
-coincidir(["vic", "pedro"])
+coincidir(["vic", "vic"])
